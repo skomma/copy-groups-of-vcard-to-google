@@ -1,18 +1,35 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    annotate_gem (0.0.11)
+      bundler (~> 1.1)
+    awesome_print (1.8.0)
+    binding_of_caller (0.7.3)
+      debug_inspector (>= 0.0.1)
+    byebug (9.1.0)
     coderay (1.1.2)
+    debug_inspector (0.0.3)
     method_source (0.9.0)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    pry-byebug (3.5.1)
+      byebug (~> 9.1)
+      pry (~> 0.10)
+    pry-stack_explorer (0.4.9.2)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
     vcard (0.2.15)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate_gem
+  awesome_print
   pry
+  pry-byebug
+  pry-stack_explorer
   vcard
 
 BUNDLED WITH
